@@ -113,7 +113,7 @@ GEM
       binding_of_caller (>= 0.7)
       pry (>= 0.9.11)
     puma (3.5.2)
-    rack (2.0.1)
+    rack (2.2.3)
     rack-attack (4.4.1)
       rack
     rack-cors (0.4.0)
