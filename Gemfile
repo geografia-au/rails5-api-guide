@@ -2,22 +2,22 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0'
+gem 'rails', '~> 5.2.4', '>= 5.2.4.6'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # use Devise Token Auth for token based authentication
-gem 'devise_token_auth'
+gem 'devise_token_auth', '>= 0.1.43'
 gem 'omniauth'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 # Use Rack attack for black/white listing, rate limiting, throttling
 gem 'rack-attack'
 # Actime Model Serializers provides a good way to 
-gem 'active_model_serializers', '~> 0.10.0'
+gem 'active_model_serializers', '~> 0.10.2'
 # redis-rails for redis cacheing
-gem 'redis-rails'
+gem 'redis-rails', '>= 5.0.1'
 # Use sidekiq for background job processing
 gem 'sidekiq'
 
@@ -26,7 +26,7 @@ gem 'sidekiq'
 
 group :development, :test do
   gem 'rspec-rails', '3.1.0'
-  gem 'factory_girl_rails'
+  gem 'factory_girl_rails', '>= 4.7.0'
   gem 'pry-rails'
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
